@@ -1,0 +1,140 @@
+body {
+    background-color: #F8F5F4;
+}
+
+.navbar-custom {
+    background-color: #000000;
+    padding: 50px;
+    height: 100px;
+}
+
+.navbar-custom .nav-link {
+    padding-left: px;
+    color: #fff;
+}
+
+.navbar-custom .nav-link a {
+    padding: 100 px;
+    color: #fff;
+    size: 20px;
+}
+
+.row.featurette {
+    text-align: center;
+    padding: 50px 0;
+    margin: 0;
+}
+
+.row.featurette .col-md-7 {
+    padding: 0 15px;
+}
+
+.row.featurette h2 {
+    align-items: center;
+    font-size: 2.5rem;
+    padding: 15px 0;
+}
+
+.row.featurette img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-md-2,
+.col-sm-4,
+.col-6 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.container-card {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #000000;
+    padding: 50px;
+    margin: 20px;
+}
+
+.container-card h3 {
+    color: #fff;
+}
+
+.container-card .row {
+
+    margin: 20px;
+}
+
+.container-card .row .col-md-6 {
+    width: px;
+    height: 1000pxs;
+}
+
+
+.cards-det {
+    background-color: #B5B7BB;
+}
+
+.cards-det .row {
+
+    margin: 10%;
+}
+
+.cards-det .row h1 {
+    margin: 20px;
+}
+
+@media (max-width: 480px) {
+    .cards-det .row {
+        margin: 30%;
+        /* Add other styles specific to screens <= 480px here */
+    }
+}
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    text-align: center;
+}
+
+.announcement {
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.content {
+    font-size: 18px;
+}
+
+/* Add other CSS rules for your design as needed */
